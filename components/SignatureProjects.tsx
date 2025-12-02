@@ -12,63 +12,90 @@ type Project = {
 const projects: Project[] = [
   {
     id: "01",
-    title: "Copper AI Proctoring",
-    thesis: "Eliminating academic dishonesty through real-time computer vision pipelines.",
+    title: "Blended Learning (AI Lecture Engine)",
+    thesis: "Automated lecture generation pipeline delivering AI-powered educational content to 10,000+ students.",
     bullets: [
-        "Architected heartbeat sync between primary + secondary devices.",
-        "Integrated AWS Rekognition for face/object detection on video streams.",
-        "Reduced manual proctoring review load by 80% for 1,000+ users."
+        "Automated lecture generation using AI, reducing dependency on human instructors by 80%",
+        "Enabled scalable lecture delivery to 10,000+ students with AI-generated content",
+        "Leveraged OpenAI APIs and open-source models for dynamic, personalized lecture creation",
+        "Designed end-to-end content generation pipeline: Whisper (TTS), OpenAI LLM, RVC (voice cloning), SADTalker (avatar animation)",
+        "Automated class presentations using Reveal.js with dynamic styling and design"
     ],
-    tech: "React, Node.js, WebRTC, AWS Rekognition",
-    archHighlight: "WEBRTC_SIGNALING_MESH"
+    tech: "React | Node.js | OpenAI API | SADTalker | RVC | AWS | SQL | Prisma | GraphQL | Reveal.js",
+    archHighlight: "AI_CONTENT_GENERATION"
   },
   {
     id: "02",
-    title: "Veda Recruitment",
-    thesis: "Autonomous multi-agent hiring system that reads, ranks, and recommends.",
+    title: "Smart LMS Platform",
+    thesis: "Enterprise Learning Management System scaling from 4,000 to 50,000+ concurrent students.",
     bullets: [
-        "Orchestrated 12+ LLM agents for automated resume analysis.",
-        "Implemented intelligent scoring logic to rank candidates.",
-        "Cut manual hiring operational hours by 80%."
+        "Scaled LMS platform from 4,000 to 50,000+ students using AWS autoscaling and Redis caching",
+        "Integrated production-grade Lexical Editor with tagging, markdown, HTML, image uploads, and rich text",
+        "Enabled threaded discussions with user mentions and real-time collaboration",
+        "Implemented Firebase Notification Service for unlimited, cost-effective notifications across all platforms",
+        "Built Service Worker architecture for both foreground and background delivery"
     ],
-    tech: "GPT-4, Vector DB, Python, LangChain",
-    archHighlight: "MULTI_AGENT_ORCHESTRATOR"
+    tech: "React | Node.js | tRPC | MongoDB | AWS | Firebase | Lexical Editor | Redis | AWS Services",
+    archHighlight: "LMS_SCALING_ARCHITECTURE"
   },
   {
     id: "03",
-    title: "AI Lecture Engine",
-    thesis: "End-to-end video production pipeline generating educational content without humans.",
+    title: "Copper (Online Proctoring)",
+    thesis: "Real-time AI-powered exam monitoring system with multi-device surveillance and automated cheating detection.",
     bullets: [
-        "Automated script (GPT) + Voice cloning (RVC) pipeline.",
-        "Generated lip-synced avatar videos using SADTalker.",
-        "Full automation of lecture material creation."
+        "Developed real-time exam monitoring with video/screen capture, facial recognition, and behavioral analytics",
+        "Engineered plagiarism detection using code similarity (70%+ accuracy) and AI tool usage detection via OCR",
+        "Reduced manual review time by 80% through automated flagging based on 50+ data points",
+        "Architected distributed system supporting 1,000+ concurrent users with React frontend and mobile app",
+        "Integrated secondary camera feeds from mobile devices for comprehensive multi-angle surveillance",
+        "Built comprehensive dashboards with suspect scoring and behavioral pattern analysis"
     ],
-    tech: "Python, FFmpeg, RVC, SADTalker",
-    archHighlight: "ASYNC_MEDIA_PIPELINE"
+    tech: "React | Bun | Express.js | TypeScript | AWS | MongoDB | WebRTC | AWS Rekognition | AWS Textract | OpenAI API | Redis",
+    archHighlight: "REALTIME_PROCTORING_SYSTEM"
   },
   {
     id: "04",
-    title: "AI Counselling Assistant",
-    thesis: "Scaling mental health support with sub-second, empathetic AI responses.",
+    title: "AI Counsellor",
+    thesis: "AI-powered counselling system with GPT-4 and real-time speech recognition, reducing human workload by 70%.",
     bullets: [
-        "Implemented RAG with Pinecone for context-aware responses.",
-        "Achieved sub-second latency via WebSocket streaming.",
-        "Reduced infrastructure costs by 77%."
+        "Built AI-powered counselling system using GPT-4 and real-time speech recognition",
+        "Reduced human counsellor workload by 70% through intelligent automation",
+        "Engineered low-latency streaming platform with WebSocket enabling sub-second response times",
+        "Implemented Retrieval-Augmented Generation (RAG) using Pinecone and OpenAI embeddings for contextual precision",
+        "Developed admin dashboard for analytics, session insights, and template management",
+        "Achieved 77% cost reduction in counselling operations through AI automation"
     ],
-    tech: "GPT-4, WebSocket, Pinecone, Redis",
-    archHighlight: "REALTIME_RAG_STREAM"
+    tech: "React | TypeScript | Bun | Elysia.js | OpenAI GPT-4 | Azure Cognitive Services | Pinecone | MongoDB | Redis | WebSocket | Tailwind CSS | Zustand | Vite | Reveal.js | JWT | AWS",
+    archHighlight: "AI_COUNSELLING_RAG_SYSTEM"
   },
   {
       id: "05",
-      title: "Insta Analytics Engine",
-      thesis: "High-throughput distributed system for social media data processing.",
+      title: "Insta Insights",
+      thesis: "Full-stack Instagram Reels analysis platform providing creators with deep engagement insights using GPT-4 and custom ML.",
       bullets: [
-          "Fault-tolerant job queues (BullMQ) processing massive datasets.",
-          "Achieved 95%+ accuracy in transcription and analysis.",
-          "Distributed async processing via Redis."
+          "Analyzed Instagram Reels using GPT-4, AWS Transcribe, and custom ML models for content insights",
+          "Built video processing pipeline with AWS S3 and BullMQ queues handling 25+ reels per session at 95%+ accuracy",
+          "Engineered AI to identify niche topics, hook styles, content patterns, and promotional strategies",
+          "Designed robust asynchronous job architecture with Redis and BullMQ for concurrent processing",
+          "Developed script generation tool using GPT-4 that mimics influencers' tone and content style"
       ],
-      tech: "Redis, BullMQ, Node.js, Workers",
-      archHighlight: "DISTRIBUTED_QUEUE_WORKERS"
+      tech: "React | TypeScript | Node.js | Express.js | MongoDB | OpenAI API | AWS S3 | AWS Transcribe | Redis | BullMQ | Tailwind CSS | Framer Motion | JWT | Apify | REST APIs | Microservices | Queue Processing | AI/ML | Cloud Architecture",
+      archHighlight: "INSTAGRAM_ANALYTICS_PIPELINE"
+  },
+  {
+      id: "06",
+      title: "Veda (AI Recruitment Agent)",
+      thesis: "AI-powered recruitment agent with 12+ specialized sub-agents automating job creation, screening, and interview scheduling.",
+      bullets: [
+          "Built AI-powered recruitment agent that automates job creation, screening, and interview scheduling",
+          "Cut manual hiring workload by 80% through intelligent automation",
+          "Designed multi-agent LLM system with 12+ specialized sub-agents for candidate matching",
+          "Developed LLM-based candidate evaluation providing fit scores, match reasons, and hiring transparency",
+          "Created automated interview scheduling with calendar integration and conflict resolution",
+          "Integrated real-time communication systems with Slack, email, and phone calls for recruiter-candidate interactions"
+      ],
+      tech: "React | TypeScript | Node.js | MongoDB | AWS | OpenAI | Claude | Plivo API | Slack API | BullMQ | Zod | Socket.io | Tailwind CSS | Vercel AI SDK",
+      archHighlight: "MULTI_AGENT_RECRUITMENT_SYSTEM"
   }
 ];
 
@@ -104,7 +131,7 @@ const SignatureProjects: React.FC = () => {
                 </div>
 
                 {/* Exhibit Display (Sticky) */}
-                <div className="w-full lg:w-2/3 min-h-[500px] relative border border-white/10 bg-[#0F0F0F] p-8 md:p-12 overflow-hidden">
+                <div className="w-full lg:w-2/3 min-h-[600px] relative border border-white/10 bg-[#0F0F0F] p-8 md:p-12 overflow-hidden">
                     {projects.map((p) => (
                         <div 
                             key={p.id} 

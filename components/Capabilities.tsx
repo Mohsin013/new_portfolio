@@ -3,31 +3,94 @@ import React, { useState } from 'react';
 const categories = [
   {
     id: 1,
-    title: "Architectures that scale",
-    desc: "Robust backends and distributed systems.",
-    examples: ["Modular Monoliths (Node/Bun)", "Distributed Queues (BullMQ)"],
-    icon: "🏗️"
+    title: "AI & Machine Learning",
+    desc: "Production-ready AI systems that deliver real value.",
+    examples: [
+      "OpenAI GPT-4 Integration",
+      "Generative AI Pipelines",
+      "RAG with Pinecone",
+      "Multi-Agent LLM Systems",
+      "Vector Embeddings",
+      "Voice Cloning (RVC)",
+      "Avatar Animation (SADTalker)",
+      "AWS Rekognition & Textract",
+      "Vercel AI SDK"
+    ],
+    icon: "🤖"
   },
   {
     id: 2,
-    title: "Products that ship",
-    desc: "End-to-end delivery across platforms.",
-    examples: ["React Native / Expo (Offline-first)", "Next.js / Vite PWAs"],
-    icon: "🚀"
+    title: "Backend Development",
+    desc: "High-performance, scalable server architectures.",
+    examples: [
+      "Node.js & Bun.js Runtime",
+      "Elysia.js & Express.js",
+      "TypeScript & Python",
+      "GraphQL & tRPC",
+      "Microservices Architecture",
+      "Asynchronous Job Processing (BullMQ)",
+      "Real-time WebSocket Systems"
+    ],
+    icon: "⚡"
   },
   {
     id: 3,
-    title: "AI in real life",
-    desc: "Pragmatic intelligence, not just hype.",
-    examples: ["Multi-agent LLM Orchestration", "RAG Pipelines & Voice Cloning"],
-    icon: "🧠"
+    title: "Frontend Development",
+    desc: "Modern, responsive interfaces with excellent UX.",
+    examples: [
+      "React.js & TypeScript",
+      "Lexical Editor Integration",
+      "Reveal.js Presentations",
+      "Tailwind CSS Styling",
+      "Zustand State Management",
+      "Vite Build System",
+      "Progressive Web Apps (PWA)"
+    ],
+    icon: "🎨"
   },
   {
     id: 4,
-    title: "Systems that matter",
-    desc: "Infrastructure that keeps business alive.",
-    examples: ["AWS (EC2, ASG, CodePipeline)", "Observability & Monitoring"],
-    icon: "🔌"
+    title: "Databases & Caching",
+    desc: "Optimized data storage and retrieval solutions.",
+    examples: [
+      "MongoDB Document Storage",
+      "SQL with Prisma ORM",
+      "Redis Caching & Queues",
+      "Pinecone Vector Database",
+      "Database Optimization",
+      "Query Performance Tuning"
+    ],
+    icon: "💾"
+  },
+  {
+    id: 5,
+    title: "Cloud & DevOps",
+    desc: "Enterprise-grade infrastructure and deployment.",
+    examples: [
+      "AWS Infrastructure (S3, EC2, ASG)",
+      "Route 53 & CloudFront CDN",
+      "Load Balancer Configuration",
+      "CI/CD with CodePipeline",
+      "Distributed Systems Design",
+      "WebRTC Real-time Communication",
+      "Monitoring & Observability"
+    ],
+    icon: "☁️"
+  },
+  {
+    id: 6,
+    title: "System Architecture",
+    desc: "End-to-end solution design and implementation.",
+    examples: [
+      "Distributed Queue Systems",
+      "Auto-scaling Strategies",
+      "Fault-tolerant Design Patterns",
+      "Real-time Streaming Architectures",
+      "Modular Monolith Design",
+      "Microservices Migration",
+      "Performance Optimization"
+    ],
+    icon: "🏗️"
   }
 ];
 
@@ -44,7 +107,7 @@ const Capabilities: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {categories.map((cat) => (
             <div 
               key={cat.id}

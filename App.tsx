@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Hero from './components/Hero';
 import Capabilities from './components/Capabilities';
+import Experience from './components/Experience';
 import CaseStudy from './components/CaseStudy';
 import SignatureProjects from './components/SignatureProjects';
 import Philosophy from './components/Philosophy';
@@ -37,6 +38,7 @@ const App: React.FC = () => {
       <main className="flex flex-col gap-0">
         <Hero />
         <Capabilities />
+        <Experience />
         <CaseStudy />
         <SignatureProjects />
         <Philosophy />

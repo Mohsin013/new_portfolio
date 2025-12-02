@@ -8,10 +8,10 @@ const CaseStudy: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-6 md:px-24 relative z-10">
         <header className="mb-20">
-            <span className="text-xs font-mono text-purple-400 border border-purple-500/30 px-2 py-1 rounded mb-6 inline-block">CASE STUDY: 001</span>
-            <h2 className="text-4xl md:text-6xl font-medium tracking-tight mb-6">Feel You Best</h2>
+            <span className="text-xs font-mono text-purple-400 border border-purple-500/30 px-2 py-1 rounded mb-6 inline-block">CASE STUDY: FEEL YOU BEST</span>
+            <h2 className="text-4xl md:text-6xl font-medium tracking-tight mb-6">Building Mental Wellbeing</h2>
             <p className="text-xl text-white/60 max-w-2xl font-light">
-                Founding Engineer. From zero lines of code to a scaled mental wellbeing platform handling critical user data.
+                Founding Engineer journey - architecting a scalable mental health platform from concept to production.
             </p>
         </header>
 
