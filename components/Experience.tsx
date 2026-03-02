@@ -25,14 +25,26 @@ const Experience: React.FC = () => {
             Professional Journey
           </h2>
 
-  {/* Current Position */}
+  {/* Current Position 1 */}
+          <div className="mb-8 p-6 border border-white/10 bg-white/[0.02] rounded-lg">
+            <h3 className="text-2xl md:text-3xl font-medium text-white mb-2">
+              Founding Engineer
+            </h3>
+            <div className="flex flex-wrap items-center gap-4 text-sm font-mono text-white/60">
+              <span className="border border-accent-blue/30 px-3 py-1 rounded bg-accent-blue/10">DevMinds Learning</span>
+              <span className="text-accent-blue">Jan 2026 – Present</span>
+              <span className="border border-green-500/30 text-green-400 px-3 py-1 rounded">Current</span>
+            </div>
+          </div>
+
+          {/* Current Position 2 */}
           <div className="mb-8 p-6 border border-white/10 bg-white/[0.02] rounded-lg">
             <h3 className="text-2xl md:text-3xl font-medium text-white mb-2">
               Founding Engineer
             </h3>
             <div className="flex flex-wrap items-center gap-4 text-sm font-mono text-white/60">
               <span className="border border-accent-blue/30 px-3 py-1 rounded bg-accent-blue/10">Feel You Best</span>
-              <span className="text-accent-blue">Aug 2025 – Present</span>
+              <span className="text-accent-blue">Sep 2025 – Present</span>
               <span className="border border-green-500/30 text-green-400 px-3 py-1 rounded">Current</span>
             </div>
           </div>

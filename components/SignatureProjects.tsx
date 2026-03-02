@@ -12,6 +12,36 @@ type Project = {
 const projects: Project[] = [
   {
     id: "01",
+    title: "DevMinds Learning (AI Adaptive Platform)",
+    thesis: "AI-powered adaptive learning platform with multi-AI architecture serving 4 distinct user roles with personalized curriculum planning.",
+    bullets: [
+        "Architected AI-powered adaptive learning platform from scratch using React 19, TypeScript, Node.js, and MongoDB",
+        "Designed multi-AI architecture integrating Anthropic Claude, Google Gemini, and OpenAI for automated content analysis",
+        "Built smart adaptive learning algorithm with dynamic difficulty calculation (4 levels) and personalized curriculum planning",
+        "Engineered scalable background processing system using BullMQ and Redis with 5 specialized workers processing 1,000+ modules daily",
+        "Implemented real-time interactive modules featuring Web Speech API text-to-speech and per-question timing analytics",
+        "Created comprehensive Recharts dashboards for progress tracking with weighted proficiency scoring"
+    ],
+    tech: "React 19 | TypeScript | Node.js | MongoDB | Anthropic Claude | Google Gemini | OpenAI | BullMQ | Redis | Web Speech API | Recharts | AWS",
+    archHighlight: "MULTI_AI_ADAPTIVE_LEARNING"
+  },
+  {
+    id: "02",
+    title: "Feel You Best (Wellness Platform)",
+    thesis: "Comprehensive wellness platform with 78,000+ LOC monorepo serving 4 client applications with real-time booking engine.",
+    bullets: [
+        "Led full-stack development of comprehensive wellness platform with 78,000+ LOC monorepo",
+        "Designed complex real-time booking engine with 4-tier Role-Based Access Control (RBAC) system",
+        "Built cross-platform mobile application using React Native and Expo with 20+ reusable UI components",
+        "Integrated Razorpay payment gateway processing one-time payments, EMIs, and installments with 99.9% success rate",
+        "Optimized infrastructure using Redis caching, payload compression, and MongoDB indexing reducing API response times by 40%",
+        "Architected modular monolith backend serving 4 client applications via shared Node.js/TypeScript microservices"
+    ],
+    tech: "React Native | Expo | React 19 | Node.js | TypeScript | MongoDB | Redis | Razorpay | AWS | Monorepo | Real-time Booking | RBAC",
+    archHighlight: "WELLNESS_PLATFORM_MONOREPO"
+  },
+  {
+    id: "03",
     title: "Blended Learning (AI Lecture Engine)",
     thesis: "Automated lecture generation pipeline delivering AI-powered educational content to 10,000+ students.",
     bullets: [
@@ -25,7 +55,7 @@ const projects: Project[] = [
     archHighlight: "AI_CONTENT_GENERATION"
   },
   {
-    id: "02",
+    id: "04",
     title: "Smart LMS Platform",
     thesis: "Enterprise Learning Management System scaling from 4,000 to 50,000+ concurrent students.",
     bullets: [
@@ -39,7 +69,7 @@ const projects: Project[] = [
     archHighlight: "LMS_SCALING_ARCHITECTURE"
   },
   {
-    id: "03",
+    id: "05",
     title: "Copper (Online Proctoring)",
     thesis: "Real-time AI-powered exam monitoring system with multi-device surveillance and automated cheating detection.",
     bullets: [
@@ -54,7 +84,22 @@ const projects: Project[] = [
     archHighlight: "REALTIME_PROCTORING_SYSTEM"
   },
   {
-    id: "04",
+    id: "06",
+    title: "Veda (AI Recruitment Agent)",
+    thesis: "AI-powered recruitment agent with 12+ specialized sub-agents automating job creation, screening, and interview scheduling.",
+    bullets: [
+        "Built AI-powered recruitment agent that automates job creation, screening, and interview scheduling",
+        "Cut manual hiring workload by 80% through intelligent automation",
+        "Designed multi-agent LLM system with 12+ specialized sub-agents for candidate matching",
+        "Developed LLM-based candidate evaluation providing fit scores, match reasons, and hiring transparency",
+        "Created automated interview scheduling with calendar integration and conflict resolution",
+        "Integrated real-time communication systems with Slack, email, and phone calls for recruiter-candidate interactions"
+    ],
+    tech: "React | TypeScript | Node.js | MongoDB | AWS | OpenAI | Claude | Plivo API | Slack API | BullMQ | Zod | Socket.io | Tailwind CSS | Vercel AI SDK",
+    archHighlight: "MULTI_AGENT_RECRUITMENT_SYSTEM"
+  },
+  {
+    id: "07",
     title: "AI Counsellor",
     thesis: "AI-powered counselling system with GPT-4 and real-time speech recognition, reducing human workload by 70%.",
     bullets: [
@@ -69,7 +114,7 @@ const projects: Project[] = [
     archHighlight: "AI_COUNSELLING_RAG_SYSTEM"
   },
   {
-      id: "05",
+      id: "08",
       title: "Insta Insights",
       thesis: "Full-stack Instagram Reels analysis platform providing creators with deep engagement insights using GPT-4 and custom ML.",
       bullets: [
@@ -81,21 +126,6 @@ const projects: Project[] = [
       ],
       tech: "React | TypeScript | Node.js | Express.js | MongoDB | OpenAI API | AWS S3 | AWS Transcribe | Redis | BullMQ | Tailwind CSS | Framer Motion | JWT | Apify | REST APIs | Microservices | Queue Processing | AI/ML | Cloud Architecture",
       archHighlight: "INSTAGRAM_ANALYTICS_PIPELINE"
-  },
-  {
-      id: "06",
-      title: "Veda (AI Recruitment Agent)",
-      thesis: "AI-powered recruitment agent with 12+ specialized sub-agents automating job creation, screening, and interview scheduling.",
-      bullets: [
-          "Built AI-powered recruitment agent that automates job creation, screening, and interview scheduling",
-          "Cut manual hiring workload by 80% through intelligent automation",
-          "Designed multi-agent LLM system with 12+ specialized sub-agents for candidate matching",
-          "Developed LLM-based candidate evaluation providing fit scores, match reasons, and hiring transparency",
-          "Created automated interview scheduling with calendar integration and conflict resolution",
-          "Integrated real-time communication systems with Slack, email, and phone calls for recruiter-candidate interactions"
-      ],
-      tech: "React | TypeScript | Node.js | MongoDB | AWS | OpenAI | Claude | Plivo API | Slack API | BullMQ | Zod | Socket.io | Tailwind CSS | Vercel AI SDK",
-      archHighlight: "MULTI_AGENT_RECRUITMENT_SYSTEM"
   }
 ];
 

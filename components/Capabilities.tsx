@@ -6,6 +6,7 @@ const categories = [
     title: "AI & Machine Learning",
     desc: "Production-ready AI systems that deliver real value.",
     examples: [
+      "Anthropic Claude & Google Gemini",
       "OpenAI GPT-4 Integration",
       "Generative AI Pipelines",
       "RAG with Pinecone",
@@ -29,20 +30,24 @@ const categories = [
       "GraphQL & tRPC",
       "Microservices Architecture",
       "Asynchronous Job Processing (BullMQ)",
-      "Real-time WebSocket Systems"
+      "Real-time WebSocket Systems",
+      "WebRTC Streaming"
     ],
     icon: "⚡"
   },
   {
     id: 3,
-    title: "Frontend Development",
+    title: "Frontend & Mobile",
     desc: "Modern, responsive interfaces with excellent UX.",
     examples: [
-      "React.js & TypeScript",
+      "React 19 & TypeScript",
+      "React Native & Expo",
       "Lexical Editor Integration",
       "Reveal.js Presentations",
       "Tailwind CSS Styling",
       "Zustand State Management",
+      "React Query Data Fetching",
+      "Recharts & Radix UI",
       "Vite Build System",
       "Progressive Web Apps (PWA)"
     ],
@@ -54,6 +59,7 @@ const categories = [
     desc: "Optimized data storage and retrieval solutions.",
     examples: [
       "MongoDB Document Storage",
+      "Mongoose ODM",
       "SQL with Prisma ORM",
       "Redis Caching & Queues",
       "Pinecone Vector Database",
@@ -72,6 +78,8 @@ const categories = [
       "Load Balancer Configuration",
       "CI/CD with CodePipeline",
       "Distributed Systems Design",
+      "Stripe & Razorpay Integration",
+      "OAuth 2.0 Authentication",
       "WebRTC Real-time Communication",
       "Monitoring & Observability"
     ],

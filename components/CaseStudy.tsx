@@ -9,9 +9,9 @@ const CaseStudy: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-24 relative z-10">
         <header className="mb-20">
             <span className="text-xs font-mono text-purple-400 border border-purple-500/30 px-2 py-1 rounded mb-6 inline-block">CASE STUDY: FEEL YOU BEST</span>
-            <h2 className="text-4xl md:text-6xl font-medium tracking-tight mb-6">Building Mental Wellbeing</h2>
+            <h2 className="text-4xl md:text-6xl font-medium tracking-tight mb-6">Building Mental Wellbeing Platform</h2>
             <p className="text-xl text-white/60 max-w-2xl font-light">
-                Founding Engineer journey - architecting a scalable mental health platform from concept to production.
+                Founding Engineer journey - architecting a comprehensive wellness platform as a 78,000+ LOC monorepo serving 4 client applications.
             </p>
         </header>
 
@@ -22,15 +22,16 @@ const CaseStudy: React.FC = () => {
             <div className="relative group">
                 <div className="absolute -left-[41px] lg:left-0 lg:-top-[41px] w-5 h-5 bg-black border-2 border-white/20 rounded-full group-hover:border-accent-blue transition-colors" />
                 <div className="lg:pt-12">
-                    <h3 className="text-lg font-medium text-white mb-2">01. The Void</h3>
+                    <h3 className="text-lg font-medium text-white mb-2">01. The Foundation</h3>
                     <p className="text-sm text-white/50 mb-6 font-mono leading-relaxed">
-                        Nothing existed. Challenge: Build a secure, offline-first mobile app and PWA with real-time audio/video.
+                        Built a comprehensive wellness platform from scratch with a 78,000+ LOC monorepo architecture serving 4 client applications.
                     </p>
                     <div className="p-4 bg-white/5 rounded border border-white/5 font-mono text-xs text-white/70 space-y-2">
                         <div className="text-purple-300">// CLIENT STACK</div>
-                        <div>+ Expo / React Native (Offline-first)</div>
-                        <div>+ React PWA (Installable)</div>
-                        <div>+ Expert Portal (Dashboards)</div>
+                        <div>+ React Native + Expo (Mobile)</div>
+                        <div>+ React 19 + 20+ Custom UI Components</div>
+                        <div>+ 4-Tier RBAC System</div>
+                        <div>+ Real-time Booking Engine</div>
                     </div>
                 </div>
             </div>
@@ -41,13 +42,14 @@ const CaseStudy: React.FC = () => {
                 <div className="lg:pt-12">
                     <h3 className="text-lg font-medium text-white mb-2">02. The Architecture</h3>
                     <p className="text-sm text-white/50 mb-6 font-mono leading-relaxed">
-                        Designing for high availability. Architected a modular monolith ready for microservices split.
+                        Designed modular monolith backend with shared Node.js/TypeScript microservices. Optimized for 40% faster API response times.
                     </p>
                     <div className="p-4 bg-white/5 rounded border border-white/5 font-mono text-xs text-white/70 space-y-2">
                         <div className="text-purple-300">// CORE INFRA</div>
-                        <div>+ Node.js / Express + TypeScript</div>
-                        <div>+ Redis (Caching + Queues)</div>
-                        <div>+ AWS EC2 + ALB + ASG</div>
+                        <div>+ Node.js + Express + TypeScript</div>
+                        <div>+ Redis Caching & Compression</div>
+                        <div>+ MongoDB Indexing Strategy</div>
+                        <div>+ Modular Monorepo Architecture</div>
                     </div>
                 </div>
             </div>
@@ -56,15 +58,16 @@ const CaseStudy: React.FC = () => {
             <div className="relative group">
                 <div className="absolute -left-[41px] lg:left-0 lg:-top-[41px] w-5 h-5 bg-black border-2 border-white/20 rounded-full group-hover:border-accent-blue transition-colors" />
                 <div className="lg:pt-12">
-                    <h3 className="text-lg font-medium text-white mb-2">03. The Ownership</h3>
+                    <h3 className="text-lg font-medium text-white mb-2">03. The Integration</h3>
                     <p className="text-sm text-white/50 mb-6 font-mono leading-relaxed">
-                        Full responsibility for DevOps, security compliance, and cost optimization.
+                        Integrated Razorpay payment gateway with 99.9% success rate. Full DevOps ownership with CI/CD and infrastructure optimization.
                     </p>
                     <div className="p-4 bg-white/5 rounded border border-white/5 font-mono text-xs text-white/70 space-y-2">
-                        <div className="text-purple-300">// OPS & SECURITY</div>
+                        <div className="text-purple-300">// PAYMENTS & OPS</div>
+                        <div>+ Razorpay (One-time, EMI, Installments)</div>
                         <div>+ AWS CodePipeline (CI/CD)</div>
-                        <div>+ CloudWatch Obs & Logging</div>
-                        <div>+ IAM Policies & VPC Security</div>
+                        <div>+ CloudWatch Observability</div>
+                        <div>+ 99.9% Transaction Success Rate</div>
                     </div>
                 </div>
             </div>
