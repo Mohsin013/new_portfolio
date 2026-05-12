@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
           </div>
 
           <div className="flex justify-center gap-8 text-sm font-mono text-white/40 pt-12">
-            <a href="https://linkedin.com/in/mohsin-iqbal" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">LINKEDIN</a>
+            <a href="https://www.linkedin.com/in/mohsin-iqbal-424336237/" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">LINKEDIN</a>
             <a href="https://github.com/mohsin013" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">GITHUB</a>
           </div>
 
@@ -60,10 +60,10 @@ const Contact: React.FC = () => {
               <div className="p-4 bg-white/[0.02] border border-white/10 rounded-lg">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h4 className="text-white font-medium mb-1">Bachelor of Computer Applications (BCA)</h4>
-                    <p className="text-white/60 text-sm font-mono">Sikkim Professional University</p>
+                    <h4 className="text-white font-medium mb-1">Bachelor of Computer Applications (BCA), Computer Science</h4>
+                    <p className="text-white/60 text-sm font-mono">Vinayaka Missions Sikkim University</p>
                   </div>
-                  <span className="text-xs text-white/40 font-mono">2018-2021</span>
+                  <span className="text-xs text-white/40 font-mono">Jan 2022 - Jul 2025</span>
                 </div>
               </div>
             </div>
